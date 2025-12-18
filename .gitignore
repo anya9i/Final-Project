@@ -1,0 +1,29 @@
+# OS
+desktop.ini
+.DS_Store
+
+# Environment
+.env
+.env.backup
+.env.production
+
+# Dependencies
+/node_modules
+/vendor
+
+# Laravel
+/public/storage
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Build files
+/public/build
+/public/hot
+/.phpunit.cache
+
+# IDE
+/.idea
+/.vscode
